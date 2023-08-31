@@ -1,2 +1,93 @@
 
 /* Your CSS Code here. */
+.div{
+	display:grid;
+	margin:px;
+	widht:610px;
+	display:grid;
+	grid-template-rows:200px 200px 200px;
+	grid-template-columns:  200px 200px 200px;
+	background-color:black;
+	grid-row-gap:5px;
+	grid-column-gap:5px;
+	justify-self:center;
+	
+	
+	
+	
+	
+	border:5px solid rgb(4,255,4);	
+
+	
+}
+.item1{
+	background-color:teal;
+	border:dotted 2px; 
+}
+
+.item2{
+	grid-column-start:2;
+	grid-column-end:4;
+	background-color:thistle;
+	border:dotted 2px; 
+	
+}
+.col3{
+	width:200px;
+	height:197px;
+	background-color:tomato;
+	border:dotted 2px; 
+	
+	justify-items:center;
+	
+	
+	
+	
+	
+	
+	
+	
+}
+.item3{
+	
+	border:dotted 2px; 
+	grid-column-start:1;
+	grid-column-end:3;
+		justify-self:center;
+	align-self:center;
+	
+	
+/* 	gird-column: 1 / span 3; */
+	
+	
+}
+
+.item4{
+	
+	background-color:turquoise;
+	border:dotted 2px; 
+	
+}
+.item6{
+	
+	background-color:violet;
+	border:dotted 2px; 
+	width:200px
+	
+	
+}
+.item7{
+	background-color:yellowgreen;
+	border:2px dotted;
+	width:200px
+	
+
+	
+}
+.footer{
+display:flex;
+	justify-self:center;
+	grid-column-start:1;
+	grid-column-end:4;
+	}
+
