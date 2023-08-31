@@ -2,7 +2,8 @@
 /* Your CSS Code here. */
 .div{
 	display:grid;
-	margin:px;
+	margin:5px;
+	padding:5px;
 	widht:610px;
 	display:grid;
 	grid-template-rows:200px 200px 200px;
@@ -11,6 +12,7 @@
 	grid-row-gap:5px;
 	grid-column-gap:5px;
 	justify-self:center;
+
 	
 	
 	
