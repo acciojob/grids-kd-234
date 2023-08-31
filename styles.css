@@ -2,15 +2,16 @@
 /* Your CSS Code here. */
 .div{
 	display:grid;
-	margin:5px;
-	padding:5px;
-	widht:610px;
+	
+	
+	widht:600px;
 	display:grid;
 	grid-template-rows:200px 200px 200px;
 	grid-template-columns:  200px 200px 200px;
 	background-color:black;
 	grid-row-gap:5px;
-	grid-column-gap:5px;
+	
+	
 	justify-self:center;
 
 	
@@ -35,8 +36,9 @@
 	
 }
 .col3{
+	
 	width:200px;
-	height:197px;
+	height:200px;
 	background-color:tomato;
 	border:dotted 2px; 
 	
@@ -71,22 +73,25 @@
 	
 }
 .item6{
-	
+	width:200px;
+	margin:2px;
 	background-color:violet;
 	border:dotted 2px; 
-	width:200px
+	
 	
 	
 }
 .item7{
 	background-color:yellowgreen;
 	border:2px dotted;
-	width:200px
+	width:200px;
 	
 
 	
 }
 .footer{
+	
+	
 display:flex;
 	justify-self:center;
 	grid-column-start:1;
